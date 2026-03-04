@@ -1,0 +1,22 @@
+defaults:
+  - _self_
+
+dataset: "adult"
+
+method: "Bayes_fair"
+
+
+parameters:
+  fair_notion: "DP"  
+  c: 0.5
+  fair_tolerance: 0.1
+  type:  "MD"  # MD or MR
+  max_lambda: 1
+  allow_sens: True
+  grid_interval: 0.1
+  test_ratio: 0.5
+  valid_ratio: 0.5
+
+seed: 100
+log_dir: "./save_results"
+device: "mps"
