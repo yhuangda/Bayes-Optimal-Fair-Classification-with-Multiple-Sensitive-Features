@@ -9,10 +9,10 @@
 - `compas_multi` - COMPAS 数据集（多敏感属性）
 
 ## 支持的方法
-- `Bayes_fair` - 后处理贝叶斯公平分类器（随机森林）
-- `Bayes_fair_logit` - 后处理贝叶斯公平分类器（逻辑回归）
-- `Bayes_fair_inprocess` - 处理中贝叶斯公平分类器（随机森林）
-- `Bayes_fair_inprocess_logit` - 处理中贝叶斯公平分类器（逻辑回归）
+- `Bayes_fair` - Post-processing 贝叶斯公平分类器（随机森林）
+- `Bayes_fair_logit` - Post-processing 贝叶斯公平分类器（逻辑回归）
+- `Bayes_fair_inprocess` - In-processing 贝叶斯公平分类器（随机森林）
+- `Bayes_fair_inprocess_logit` - In-processing贝叶斯公平分类器（逻辑回归）
 
 ## 支持的公平性概念
 - `DP` - Demographic Parity (人口统计均等)
